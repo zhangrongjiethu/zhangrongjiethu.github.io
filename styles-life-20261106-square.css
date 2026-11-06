@@ -1,0 +1,257 @@
+/* Academic personal website: quiet typography, legible text, no framework */
+:root{--ink:#172a3b;--text:#303943;--muted:#687582;--line:#e1e5e8;--link:#1d587f;--background:#fff;--subtle:#f7f8f8}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--background);color:var(--text);font:16px/1.78 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,Helvetica,sans-serif;-webkit-font-smoothing:antialiased}a{color:var(--link);text-decoration:none}a:hover{text-decoration:underline}a:focus-visible,button:focus-visible{outline:3px solid #7fa9c2;outline-offset:3px}.wrap{width:min(100% - 52px,1020px);margin:0 auto}.skip-link{position:absolute;top:-100px;left:10px;background:#fff;padding:8px 14px;z-index:5}.skip-link:focus{top:10px}.site-header{border-bottom:1px solid var(--line)}.header-content{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:25px}.wordmark{font-family:Georgia,"Times New Roman",serif;color:var(--ink);font-size:23px;font-weight:600;white-space:nowrap}.wordmark:hover{text-decoration:none}.mainnav{display:flex;align-items:center;gap:30px}.mainnav a{font-size:14px;color:#48525b}.mainnav a[aria-current="page"]{font-weight:700;color:var(--ink);text-decoration:underline;text-decoration-color:#9cb9cd;text-underline-offset:8px}.mainnav .navcv{color:var(--link)}.menu-button{display:none;appearance:none;border:0;background:none;cursor:pointer;padding:10px}.menu-button span{display:block;width:23px;height:2px;margin:5px 0;background:var(--ink)}.mobile-nav{border-top:1px solid var(--line);padding:12px 26px 23px}.mobile-nav a{display:block;padding:7px 0}.mobile-nav[hidden]{display:none}
+h1,h2,h3,p{margin-top:0}h1,h2,h3{color:var(--ink)}h1{font-family:Georgia,"Times New Roman",serif;font-size:45px;line-height:1.18;letter-spacing:-.025em;font-weight:normal;margin:0 0 22px}h2{font-family:Georgia,"Times New Roman",serif;font-size:27px;line-height:1.28;font-weight:normal}h3{font-size:16px}.home-intro{display:grid;grid-template-columns:265px minmax(0,1fr);gap:68px;padding-top:65px;padding-bottom:37px;align-items:start}.portrait-col{padding-top:7px}.portrait{display:block;width:100%;height:350px;object-fit:cover;object-position:center 18%;border-radius:2px}.portrait-caption{font-size:12px;color:var(--muted);margin:10px 0 0;letter-spacing:.03em}.bio-col{max-width:680px}.eyebrow{text-transform:uppercase;font-size:11px;letter-spacing:.13em;font-weight:700;color:#5e7791;margin:0 0 12px}.affil{font-size:15px;line-height:1.6;color:var(--ink);margin:0 0 27px}.bio-col>p:not(.eyebrow):not(.affil):not(.profile-links){margin-bottom:17px}.bio-col strong{font-weight:600}.profile-links{display:flex;flex-wrap:wrap;gap:8px 12px;font-size:14px;margin:25px 0 0;align-items:center}.profile-links span{color:#a8a8a8}.below-home{padding-bottom:90px}.section-heading{border-bottom:1px solid var(--line);padding-bottom:12px;margin:48px 0 19px}.research-intro{max-width:825px}.fields{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;margin-top:23px}.fields h3{margin-bottom:6px;font-weight:650}.fields p{font-size:14px;line-height:1.72;color:#52606b}.selected-papers .paper{padding:21px 0}.more-link{margin-top:25px;font-size:14px}.more-link a{font-weight:600}.article-page{max-width:940px;padding-top:63px;padding-bottom:100px}.page-heading{max-width:830px;margin-bottom:44px}.page-heading h1{font-size:39px;margin-bottom:22px}.page-heading p:last-child{color:#4e5963}.paper-list{margin-bottom:36px}.paper{display:grid;grid-template-columns:38px 1fr;gap:15px;border-bottom:1px solid var(--line);padding:24px 0 21px}.paper:first-child{border-top:0}.paper-num{font-size:12px;color:#8b939b;padding-top:4px;font-variant-numeric:tabular-nums}.paper-title{font-size:16px;font-weight:600;line-height:1.54;margin:0 0 6px}.paper-title a{color:var(--ink)}.paper-title a:hover{color:var(--link)}.paper-authors{font-size:14px;line-height:1.64;margin:0 0 3px}.paper-venue{font-size:14px;line-height:1.6;margin:0;color:#4c5c69;font-style:italic}.paper-summary{font-size:13.5px;color:#63717e;margin:10px 0 0;max-width:720px;line-height:1.65}.paper-links{font-size:13px;margin-top:7px}.paper-links:empty{display:none}.section-context{font-size:14px;color:var(--muted);margin:-6px 0 19px}.research-note{border-left:3px solid #c3d6e2;background:var(--subtle);padding:17px 22px;margin-top:40px}.research-note h3{margin:0 0 5px}.research-note p{margin:0;font-size:14px}.subheading{font-size:16px;margin:25px 0 8px}.journal-list{max-width:900px;font-size:14px;line-height:1.9}.timeline{margin-top:12px}.timeline-row{display:grid;grid-template-columns:116px minmax(0,1fr);gap:20px;padding:15px 0;border-bottom:1px solid var(--line)}.timeline-date{font-size:13px;color:var(--muted);padding-top:2px;font-weight:600}.timeline-row h3{margin:0 0 2px;font-size:15px}.timeline-row p{margin:0;font-size:14px;line-height:1.72}.timeline-row .subline{margin-top:3px;color:var(--muted)}.muted{font-weight:400;color:var(--muted)}.timeline.dense .timeline-row{padding:11px 0}.footer{border-top:1px solid var(--line);background:#fafafa}.foot-content{min-height:86px;display:flex;justify-content:space-between;align-items:center;font-size:12px;color:#76818b;gap:16px}.foot-content a{color:#536675}.sep{padding:0 8px;color:#aab3ba}
+@media(max-width:810px){.wrap{width:min(100% - 36px,680px)}.mainnav{display:none}.menu-button{display:block}.header-content{min-height:66px}.wordmark{font-size:21px}.home-intro{grid-template-columns:180px minmax(0,1fr);gap:28px;padding-top:43px}.portrait{height:245px}.bio-col h1{font-size:35px}.affil{font-size:14px}.fields{grid-template-columns:1fr;gap:8px}.article-page{padding-top:44px}.page-heading h1{font-size:34px}}
+@media(max-width:590px){.wrap{width:calc(100% - 38px)}.home-intro{grid-template-columns:1fr;gap:19px}.portrait-col{max-width:205px}.portrait{height:248px}.portrait-caption{display:none}.bio-col h1{font-size:37px}.bio-col .eyebrow{margin-bottom:7px}.bio-col .affil{margin-bottom:22px}.profile-links{line-height:1.6}.page-heading h1{font-size:33px}.article-page{padding-bottom:65px}.paper{grid-template-columns:26px minmax(0,1fr);gap:9px;padding:21px 0}.paper-title{font-size:15px}.timeline-row{grid-template-columns:68px minmax(0,1fr);gap:11px}.foot-content{padding:22px 0;align-items:flex-start;flex-direction:column;min-height:unset}.section-heading{margin-top:40px}.below-home{padding-bottom:55px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Research grant and degree distinctions */
+.grant-entry{padding:9px 0 15px;border-bottom:1px solid var(--line);max-width:850px}
+.grant-entry h3{font-size:16px;font-weight:650;margin:0 0 2px}
+.grant-entry p{font-size:14px;line-height:1.72;margin:0 0 5px}
+.grant-entry .grant-program,.grant-entry .grant-period,.grant-entry .grant-role{color:var(--muted)}
+.grant-entry .grant-title{font-size:15px;color:var(--ink);margin-top:7px}
+.grant-entry-research{padding-bottom:20px}
+.education-timeline{max-width:850px}
+.education-timeline .timeline-row{padding:13px 0}
+.education-timeline .timeline-date{min-width:0}
+@media(max-width:590px){.grant-entry .grant-title{font-size:14px}}
+/* Prevent desktop navigation labels from breaking across lines. */
+.mainnav a{white-space:nowrap}
+
+/* Final typography refinements */
+.home-intro{gap:58px}.bio-col>p:not(.eyebrow):not(.affil):not(.profile-links){margin-bottom:16px}.paper-summary{color:#566675;font-size:13.7px}.section-heading{margin-top:43px}.page-heading p:last-child{line-height:1.7}.paper-authors{color:#394752}.paper-venue em{font-style:italic}
+
+/* bilingual CV downloads and author roles */
+.cv-downloads{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin:14px 0 20px}
+.cv-downloads>div{border:1px solid var(--line);padding:20px 22px;background:#fbfcfd}
+.cv-downloads h3{font-size:17px;margin:0 0 4px;font-family:Georgia,"Noto Serif CJK SC",serif}
+.cv-downloads p{font-size:13px;color:var(--muted);margin:0 0 10px}
+.cv-downloads a{font-size:14px;font-weight:600}
+.paper-correspondence{font-style:italic;color:var(--muted);font-size:12px}
+.mainnav{gap:22px}
+@media(max-width:590px){.cv-downloads{grid-template-columns:1fr;gap:12px}}
+
+
+
+
+
+
+/* Life: restrained, image-led editorial layout */
+.life-header{max-width:790px;margin-bottom:48px}
+.life-header h1{margin-bottom:16px}
+.life-header .life-lede{font-size:16px;line-height:1.84;color:#425261;max-width:750px;margin:0}
+.life-theme{border-top:1px solid var(--line);padding-top:31px;margin-bottom:57px}
+.life-theme-number{font-size:10.5px;letter-spacing:.17em;color:#7b8b9a;font-weight:700;margin-bottom:9px}
+.life-theme-title{font-family:Georgia,"Times New Roman",serif;font-size:29px;line-height:1.3;letter-spacing:-.015em;margin:0 0 10px;font-weight:normal}
+.life-theme-intro{font-size:14px;line-height:1.73;color:#64717c;max-width:730px;margin:0 0 29px}
+.life-subtheme{margin-bottom:37px}
+.life-subtheme h3{font-size:16px;line-height:1.5;font-weight:650;color:var(--ink);margin:0 0 6px}
+.life-subtheme>p{font-size:14px;line-height:1.75;color:#576575;max-width:755px;margin:0 0 17px}
+.life-sketch-grid{--sketch-height:560px;--sketch-gutter:16px;display:grid;grid-template-columns:minmax(0,0.94fr) minmax(0,1.06fr);gap:20px;align-items:start}
+.life-figure{margin:0;min-width:0}
+.life-figure img{display:block;width:100%;background:#f4f6f7;border-radius:2px}
+.life-sketch-grid img.sketch-main{height:var(--sketch-height);object-fit:cover;object-position:center 49%}
+.life-perth-figure{min-width:0}
+.perth-photo-pair{height:var(--sketch-height);display:grid;grid-template-rows:minmax(0,1fr) minmax(0,1fr);gap:var(--sketch-gutter);overflow:hidden}
+.perth-photo-pair img{width:100%;height:100%;min-height:0;object-fit:cover}
+.perth-photo-pair img.sketch-coast{object-position:center 42%}
+.perth-photo-pair img.sketch-water{object-position:center 57%}
+.life-figure figcaption{color:#778490;font-size:12px;line-height:1.65;margin-top:9px;letter-spacing:.005em}
+.life-figure figcaption strong{color:#556779;font-weight:600}
+.life-photo-duo{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;align-items:start}
+.life-photo-duo img{height:245px;object-fit:cover}
+.life-photo-duo img.nature-photo{height:246px}
+.life-photo-duo img.music-photo{height:272px}
+.life-photo-duo img.ceremony-photo{height:256px}
+.life-photo-duo img[src*="music-erhu"]{object-position:center 49%}
+.life-photo-duo img[src*="music-accordion"]{object-position:center 50%}
+.life-photo-duo img[src*="ritual-cookies"]{object-position:center 72%}
+.life-photo-duo img[src*="nature-swans"]{object-position:center 53%}
+.life-photo-duo img[src*="nature-deer"]{object-position:center 54%}
+.life-afterword{border-top:1px solid var(--line);padding-top:22px;margin-top:0;max-width:830px}
+.life-afterword p{font-size:13.7px;line-height:1.78;color:#65727e}
+.home-life-brief{max-width:860px;font-size:15px;line-height:1.78;color:#4c5c68}
+.home-life-brief a{font-weight:600;font-size:14px}
+@media(max-width:810px){
+.life-sketch-grid{--sketch-height:490px;gap:15px}
+.life-header{margin-bottom:40px}
+.life-theme{margin-bottom:48px}
+.life-photo-duo{gap:14px}
+.life-photo-duo img.nature-photo,.life-photo-duo img.music-photo,.life-photo-duo img.ceremony-photo{height:220px}
+}
+@media(max-width:590px){
+.life-header .life-lede{font-size:15.5px;line-height:1.78}
+.life-theme-title{font-size:26px}
+.life-theme-intro{margin-bottom:23px}
+.life-sketch-grid{display:grid;grid-template-columns:1fr;gap:18px}
+.life-sketch-grid img.sketch-main{width:100%;height:auto;object-fit:contain}
+.perth-photo-pair{height:auto;display:grid;grid-template-columns:1fr;grid-template-rows:none;gap:11px;overflow:visible}
+.perth-photo-pair img{height:auto;object-fit:contain}
+.life-photo-duo{grid-template-columns:1fr;gap:21px}
+.life-photo-duo img.nature-photo,.life-photo-duo img.music-photo,.life-photo-duo img.ceremony-photo{height:auto;max-height:none;object-fit:contain}
+.life-subtheme{margin-bottom:33px}
+}
+
+/* Concise Home-to-Life entry and closing reflection */
+.home-life-entry{margin-top:39px;padding-top:18px;border-top:1px solid var(--line);font-size:14px;font-weight:600}
+.home-life-entry a{color:var(--link)}
+.life-afterword{margin-top:3px;padding-top:20px}
+.life-afterword p{margin:0 0 10px}
+.life-afterword .life-conclusion{font-size:15px;line-height:1.8;color:#354958;margin:15px 0 0;max-width:750px}
+@media(max-width:590px){.home-life-entry{margin-top:31px}.life-afterword .life-conclusion{font-size:14.5px}}
+
+/* Nature in the sky, on land and under the sea */
+.life-photo-trio{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;align-items:start}
+.life-photo-trio .life-figure{min-width:0}
+.life-photo-trio img.nature-photo{height:240px;width:100%;object-fit:cover}
+.life-photo-trio img[src*="nature-swans"]{object-position:center 54%}
+.life-photo-trio img[src*="nature-deer"]{object-position:center 52%}
+.life-photo-trio img.nature-ocean{object-position:center 44%}
+/* Capture more of the full hand holding the cookies on desktop */
+.life-photo-duo img.ceremony-photo{height:318px}
+.life-photo-duo img[src*="ritual-cookies"]{object-position:center 74%}
+@media(max-width:810px){.life-photo-trio img.nature-photo{height:205px}.life-photo-duo img.ceremony-photo{height:280px}}
+@media(max-width:590px){.life-photo-trio{grid-template-columns:1fr;gap:21px}.life-photo-trio img.nature-photo{height:auto;max-height:340px;object-fit:contain}.life-photo-duo img.ceremony-photo{height:auto;max-height:none;object-fit:contain}}
+
+/* Sky / land / sea photo trilogy — balanced crops */
+.life-photo-trio img[src*="swans-in-flight"]{object-position:center 49%}
+.life-photo-trio img[src*="nature-deer"]{object-position:center 52%}
+.life-photo-trio img[src*="manta-in-blue"]{object-position:center 49%}
+@media(max-width:590px){
+  .life-photo-trio img.nature-photo{width:100%;height:255px;max-height:none;object-fit:cover}
+}
+
+/* Mobile wildlife triptych mirrors desktop: three small images in a row. */
+.life-photo-trio img.nature-photo{aspect-ratio:1.22; height:auto; object-fit:cover}
+@media(max-width:590px){
+  .life-photo-trio{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;align-items:start}
+  .life-photo-trio .life-figure{min-width:0}
+  .life-photo-trio img.nature-photo{width:100%;height:auto;aspect-ratio:0.88;max-height:none;object-fit:cover;border-radius:2px}
+  .life-photo-trio .life-figure figcaption{font-size:10.7px;line-height:1.4;margin-top:6px;text-align:center}
+  .life-photo-trio .life-figure figcaption span{display:none}
+}
+
+
+/* Wildlife triptych: preserve each animal's natural scale without enlarging the manta. */
+.life-photo-trio img.nature-photo{
+  display:block;width:100%;height:auto;aspect-ratio:3 / 2;object-fit:contain;
+  background:#edf2f7;
+}
+.life-photo-trio img.nature-ocean{
+  object-fit:contain;object-position:center;
+  background:#609cce;
+}
+@media(max-width:590px){
+  /* Compact mobile photo galleries: keep the desktop's horizontal rhythm. */
+  .life-sketch-grid{
+    --sketch-height:236px;--sketch-gutter:8px;
+    display:grid;grid-template-columns:minmax(0,.96fr) minmax(0,1.04fr);
+    gap:10px;align-items:start;
+  }
+  .life-sketch-grid img.sketch-main{
+    width:100%;height:var(--sketch-height);object-fit:cover;object-position:center 47%;
+  }
+  .perth-photo-pair{
+    height:var(--sketch-height);display:grid;grid-template-columns:1fr;
+    grid-template-rows:repeat(2,minmax(0,1fr));gap:var(--sketch-gutter);overflow:hidden;
+  }
+  .perth-photo-pair img{width:100%;height:100%;min-height:0;object-fit:cover}
+  .life-photo-duo{
+    display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;
+  }
+  .life-photo-duo img.music-photo,
+  .life-photo-duo img.ceremony-photo{
+    width:100%;height:auto;aspect-ratio:4 / 3;max-height:none;object-fit:cover;
+  }
+  .life-photo-duo img[src*="ritual-cookies"]{object-position:center 72%}
+  .life-photo-trio{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+  .life-photo-trio img.nature-photo{
+    width:100%;height:auto;aspect-ratio:3 / 2;max-height:none;object-fit:contain;
+  }
+  .life-photo-trio img.nature-ocean{object-fit:contain;object-position:center}
+  .life-figure figcaption{font-size:10.4px;line-height:1.35;margin-top:6px}
+  .life-photo-trio .life-figure figcaption{font-size:10.4px}
+}
+
+/* Compact two-part Life headings: no eyebrow or explanatory tagline. */
+.life-theme{padding-top:29px}
+.life-theme-title{margin-bottom:23px;max-width:780px;font-size:28px;line-height:1.36}
+@media(max-width:590px){.life-theme-title{font-size:23px;line-height:1.37;margin-bottom:19px}}
+
+/* Manta framing: carefully cropped original photograph, with manta larger but undistorted. */
+.life-photo-trio img.nature-ocean{object-fit:contain;object-position:center;background:#609cce}
+
+
+/* Life desktop layout guard, November 2026.
+   Isolated file name avoids browser cache of earlier styles.css. */
+.life-page img, .life-theme img, .life-sketch-grid img, .life-photo-duo img,
+.life-photo-trio img { display:block; max-width:100%; }
+.life-theme .life-figure { min-width:0; margin:0; }
+@media (min-width: 811px) {
+  .life-sketch-grid {
+    display:grid; grid-template-columns:minmax(0, 0.94fr) minmax(0, 1.06fr);
+    gap:20px; align-items:start; width:100%;
+  }
+  .life-sketch-grid img.sketch-main {
+    display:block; width:100%; height:560px; object-fit:cover; object-position:center 49%;
+  }
+  .life-sketch-grid .perth-photo-pair {
+    display:grid; height:560px; grid-template-columns:minmax(0,1fr);
+    grid-template-rows:repeat(2,minmax(0,1fr)); gap:16px; overflow:hidden;
+  }
+  .life-sketch-grid .perth-photo-pair img {
+    display:block; width:100%; height:100%; min-height:0; object-fit:cover;
+  }
+  .life-photo-trio {
+    display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; width:100%;
+  }
+  .life-photo-trio img.nature-photo {
+    display:block; width:100%; height:auto; aspect-ratio:3/2; object-fit:contain;
+  }
+  .life-photo-duo {
+    display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; width:100%;
+  }
+  .life-photo-duo img.music-photo { width:100%; height:272px; object-fit:cover; }
+  .life-photo-duo img.ceremony-photo { width:100%; height:318px; object-fit:cover; }
+}
+
+
+/* Square wildlife trio: desktop and mobile. Must follow older responsive rules. */
+.life-page .life-photo-trio {
+    display:grid;
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    gap:14px;
+    align-items:start;
+    width:100%;
+}
+.life-page .life-photo-trio .life-figure {min-width:0;width:100%;margin:0;}
+.life-page .life-photo-trio img.nature-photo,
+.life-page .life-photo-trio img.nature-photo.nature-ocean {
+    display:block;
+    width:100%;
+    height:auto;
+    max-height:none;
+    aspect-ratio:1 / 1;
+    object-fit:cover;
+    object-position:center center;
+    border-radius:2px;
+}
+.life-page .life-photo-trio img[src*="swans-in-flight"] {object-position:center 50%;}
+.life-page .life-photo-trio img[src*="nature-deer"] {object-position:55% 50%;}
+.life-page .life-photo-trio img[src*="manta-in-blue"] {object-position:center 50%;background:#629bca;}
+.life-page .life-photo-trio figcaption {
+    font-size:12px;
+    line-height:1.52;
+    color:#657583;
+    margin-top:9px;
+}
+@media (max-width:590px){
+    .life-page .life-photo-trio {grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;}
+    .life-page .life-photo-trio img.nature-photo,
+    .life-page .life-photo-trio img.nature-photo.nature-ocean {
+        width:100%;height:auto;max-height:none;aspect-ratio:1 / 1;object-fit:cover;
+    }
+    .life-page .life-photo-trio figcaption {font-size:10px;line-height:1.35;text-align:center;margin-top:6px;}
+}

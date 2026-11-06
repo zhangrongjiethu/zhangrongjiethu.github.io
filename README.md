@@ -64,3 +64,9 @@ On small screens, travel/sketchbook photos stay in two parallel columns, music a
 
 ## November 2026 – Life headings and manta crop
 Removed the two small section labels and introductory taglines; retitled the two principal sections. The Maldives manta photograph uses a crop of the original animal with a subtle continuation of surrounding water (no synthetic wildlife) and upper-water distractions excluded and the manta displayed about 1.5× larger; it is still one of three compact horizontal images on mobile.
+
+
+### 2026-11 — Life wildlife trio update
+- Square crops (desktop and mobile), captions: Yantai / Nara / Maldives.
+- Changed subheading to Birdwatching, Hiking & Diving.
+- Updated Life to reference `styles-life-20261106-square.css` to avoid old CSS browser cache.
