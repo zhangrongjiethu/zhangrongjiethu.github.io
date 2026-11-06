@@ -32,3 +32,153 @@ h1,h2,h3,p{margin-top:0}h1,h2,h3{color:var(--ink)}h1{font-family:Georgia,"Times 
 .paper-correspondence{font-style:italic;color:var(--muted);font-size:12px}
 .mainnav{gap:22px}
 @media(max-width:590px){.cv-downloads{grid-template-columns:1fr;gap:12px}}
+
+
+
+
+
+
+/* Life: restrained, image-led editorial layout */
+.life-header{max-width:790px;margin-bottom:48px}
+.life-header h1{margin-bottom:16px}
+.life-header .life-lede{font-size:16px;line-height:1.84;color:#425261;max-width:750px;margin:0}
+.life-theme{border-top:1px solid var(--line);padding-top:31px;margin-bottom:57px}
+.life-theme-number{font-size:10.5px;letter-spacing:.17em;color:#7b8b9a;font-weight:700;margin-bottom:9px}
+.life-theme-title{font-family:Georgia,"Times New Roman",serif;font-size:29px;line-height:1.3;letter-spacing:-.015em;margin:0 0 10px;font-weight:normal}
+.life-theme-intro{font-size:14px;line-height:1.73;color:#64717c;max-width:730px;margin:0 0 29px}
+.life-subtheme{margin-bottom:37px}
+.life-subtheme h3{font-size:16px;line-height:1.5;font-weight:650;color:var(--ink);margin:0 0 6px}
+.life-subtheme>p{font-size:14px;line-height:1.75;color:#576575;max-width:755px;margin:0 0 17px}
+.life-sketch-grid{--sketch-height:560px;--sketch-gutter:16px;display:grid;grid-template-columns:minmax(0,0.94fr) minmax(0,1.06fr);gap:20px;align-items:start}
+.life-figure{margin:0;min-width:0}
+.life-figure img{display:block;width:100%;background:#f4f6f7;border-radius:2px}
+.life-sketch-grid img.sketch-main{height:var(--sketch-height);object-fit:cover;object-position:center 49%}
+.life-perth-figure{min-width:0}
+.perth-photo-pair{height:var(--sketch-height);display:grid;grid-template-rows:minmax(0,1fr) minmax(0,1fr);gap:var(--sketch-gutter);overflow:hidden}
+.perth-photo-pair img{width:100%;height:100%;min-height:0;object-fit:cover}
+.perth-photo-pair img.sketch-coast{object-position:center 42%}
+.perth-photo-pair img.sketch-water{object-position:center 57%}
+.life-figure figcaption{color:#778490;font-size:12px;line-height:1.65;margin-top:9px;letter-spacing:.005em}
+.life-figure figcaption strong{color:#556779;font-weight:600}
+.life-photo-duo{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;align-items:start}
+.life-photo-duo img{height:245px;object-fit:cover}
+.life-photo-duo img.nature-photo{height:246px}
+.life-photo-duo img.music-photo{height:272px}
+.life-photo-duo img.ceremony-photo{height:256px}
+.life-photo-duo img[src*="music-erhu"]{object-position:center 49%}
+.life-photo-duo img[src*="music-accordion"]{object-position:center 50%}
+.life-photo-duo img[src*="ritual-cookies"]{object-position:center 72%}
+.life-photo-duo img[src*="nature-swans"]{object-position:center 53%}
+.life-photo-duo img[src*="nature-deer"]{object-position:center 54%}
+.life-afterword{border-top:1px solid var(--line);padding-top:22px;margin-top:0;max-width:830px}
+.life-afterword p{font-size:13.7px;line-height:1.78;color:#65727e}
+.home-life-brief{max-width:860px;font-size:15px;line-height:1.78;color:#4c5c68}
+.home-life-brief a{font-weight:600;font-size:14px}
+@media(max-width:810px){
+.life-sketch-grid{--sketch-height:490px;gap:15px}
+.life-header{margin-bottom:40px}
+.life-theme{margin-bottom:48px}
+.life-photo-duo{gap:14px}
+.life-photo-duo img.nature-photo,.life-photo-duo img.music-photo,.life-photo-duo img.ceremony-photo{height:220px}
+}
+@media(max-width:590px){
+.life-header .life-lede{font-size:15.5px;line-height:1.78}
+.life-theme-title{font-size:26px}
+.life-theme-intro{margin-bottom:23px}
+.life-sketch-grid{display:grid;grid-template-columns:1fr;gap:18px}
+.life-sketch-grid img.sketch-main{width:100%;height:auto;object-fit:contain}
+.perth-photo-pair{height:auto;display:grid;grid-template-columns:1fr;grid-template-rows:none;gap:11px;overflow:visible}
+.perth-photo-pair img{height:auto;object-fit:contain}
+.life-photo-duo{grid-template-columns:1fr;gap:21px}
+.life-photo-duo img.nature-photo,.life-photo-duo img.music-photo,.life-photo-duo img.ceremony-photo{height:auto;max-height:none;object-fit:contain}
+.life-subtheme{margin-bottom:33px}
+}
+
+/* Concise Home-to-Life entry and closing reflection */
+.home-life-entry{margin-top:39px;padding-top:18px;border-top:1px solid var(--line);font-size:14px;font-weight:600}
+.home-life-entry a{color:var(--link)}
+.life-afterword{margin-top:3px;padding-top:20px}
+.life-afterword p{margin:0 0 10px}
+.life-afterword .life-conclusion{font-size:15px;line-height:1.8;color:#354958;margin:15px 0 0;max-width:750px}
+@media(max-width:590px){.home-life-entry{margin-top:31px}.life-afterword .life-conclusion{font-size:14.5px}}
+
+/* Nature in the sky, on land and under the sea */
+.life-photo-trio{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;align-items:start}
+.life-photo-trio .life-figure{min-width:0}
+.life-photo-trio img.nature-photo{height:240px;width:100%;object-fit:cover}
+.life-photo-trio img[src*="nature-swans"]{object-position:center 54%}
+.life-photo-trio img[src*="nature-deer"]{object-position:center 52%}
+.life-photo-trio img.nature-ocean{object-position:center 44%}
+/* Capture more of the full hand holding the cookies on desktop */
+.life-photo-duo img.ceremony-photo{height:318px}
+.life-photo-duo img[src*="ritual-cookies"]{object-position:center 74%}
+@media(max-width:810px){.life-photo-trio img.nature-photo{height:205px}.life-photo-duo img.ceremony-photo{height:280px}}
+@media(max-width:590px){.life-photo-trio{grid-template-columns:1fr;gap:21px}.life-photo-trio img.nature-photo{height:auto;max-height:340px;object-fit:contain}.life-photo-duo img.ceremony-photo{height:auto;max-height:none;object-fit:contain}}
+
+/* Sky / land / sea photo trilogy — balanced crops */
+.life-photo-trio img[src*="swans-in-flight"]{object-position:center 49%}
+.life-photo-trio img[src*="nature-deer"]{object-position:center 52%}
+.life-photo-trio img[src*="manta-in-blue"]{object-position:center 49%}
+@media(max-width:590px){
+  .life-photo-trio img.nature-photo{width:100%;height:255px;max-height:none;object-fit:cover}
+}
+
+/* Mobile wildlife triptych mirrors desktop: three small images in a row. */
+.life-photo-trio img.nature-photo{aspect-ratio:1.22; height:auto; object-fit:cover}
+@media(max-width:590px){
+  .life-photo-trio{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;align-items:start}
+  .life-photo-trio .life-figure{min-width:0}
+  .life-photo-trio img.nature-photo{width:100%;height:auto;aspect-ratio:0.88;max-height:none;object-fit:cover;border-radius:2px}
+  .life-photo-trio .life-figure figcaption{font-size:10.7px;line-height:1.4;margin-top:6px;text-align:center}
+  .life-photo-trio .life-figure figcaption span{display:none}
+}
+
+
+/* Wildlife triptych: preserve each animal's natural scale without enlarging the manta. */
+.life-photo-trio img.nature-photo{
+  display:block;width:100%;height:auto;aspect-ratio:3 / 2;object-fit:contain;
+  background:#edf2f7;
+}
+.life-photo-trio img.nature-ocean{
+  object-fit:contain;object-position:center;
+  background:#609cce;
+}
+@media(max-width:590px){
+  /* Compact mobile photo galleries: keep the desktop's horizontal rhythm. */
+  .life-sketch-grid{
+    --sketch-height:236px;--sketch-gutter:8px;
+    display:grid;grid-template-columns:minmax(0,.96fr) minmax(0,1.04fr);
+    gap:10px;align-items:start;
+  }
+  .life-sketch-grid img.sketch-main{
+    width:100%;height:var(--sketch-height);object-fit:cover;object-position:center 47%;
+  }
+  .perth-photo-pair{
+    height:var(--sketch-height);display:grid;grid-template-columns:1fr;
+    grid-template-rows:repeat(2,minmax(0,1fr));gap:var(--sketch-gutter);overflow:hidden;
+  }
+  .perth-photo-pair img{width:100%;height:100%;min-height:0;object-fit:cover}
+  .life-photo-duo{
+    display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;
+  }
+  .life-photo-duo img.music-photo,
+  .life-photo-duo img.ceremony-photo{
+    width:100%;height:auto;aspect-ratio:4 / 3;max-height:none;object-fit:cover;
+  }
+  .life-photo-duo img[src*="ritual-cookies"]{object-position:center 72%}
+  .life-photo-trio{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+  .life-photo-trio img.nature-photo{
+    width:100%;height:auto;aspect-ratio:3 / 2;max-height:none;object-fit:contain;
+  }
+  .life-photo-trio img.nature-ocean{object-fit:contain;object-position:center}
+  .life-figure figcaption{font-size:10.4px;line-height:1.35;margin-top:6px}
+  .life-photo-trio .life-figure figcaption{font-size:10.4px}
+}
+
+/* Compact two-part Life headings: no eyebrow or explanatory tagline. */
+.life-theme{padding-top:29px}
+.life-theme-title{margin-bottom:23px;max-width:780px;font-size:28px;line-height:1.36}
+@media(max-width:590px){.life-theme-title{font-size:23px;line-height:1.37;margin-bottom:19px}}
+
+/* Manta framing: carefully cropped original photograph, with manta larger but undistorted. */
+.life-photo-trio img.nature-ocean{object-fit:contain;object-position:center;background:#609cce}
